@@ -33,22 +33,22 @@
 # 1.상품등록
 - (v체크 되어있는것은 필수값으로, 미입력 시 insert되지 않는다.)
 ### 1-1)[상품기본정보]
-![tb_product](C:\Users\dpwls\git\repository2\ojt-dpwls924\file/productForm1.gif)
+![tb_product](https://github.com/YeJinAhn/crewmate-internship/blob/main/file/productForm1.gif)
 - 셀렉트박스를 누르면 해당리스트가 나온다(해당리스트는 DB조회를 거친다-데이터가 바뀔 수 있기 때문에)
 - 브랜드 옆 돋보기를 클릭하면 브랜드조회 팝업창이 열린다.찾고자하는 브랜드명(혹은 브랜드ID)를 입력하면 관련된 목록이 출력된다.
 - 아이콘은 상/하단 합쳐서 2개까지만 가능하다. 2개초과시 insert할 때, 유효성체크를 거쳐 alert이 뜬다.
 - 키워드는 insert시 콤마(,)로 짤라서 테이블에 넣는다.
 
 ### 1-2)[상품분류정보]
-![tb_product2](C:\Users\dpwls\git\repository2\ojt-dpwls924\file/productForm2.gif)
+![tb_product2](https://github.com/YeJinAhn/crewmate-internship/blob/main/file/productForm2.gif)
 - 필수값으로, 최소 하나의 상품분류는 등록되어 있어야한다.기준상품분류 라디오버튼 미체크 시 insert할 때, 유효성체크를 거쳐 alert이 뜬다.
 
 ### 1-3)[상품가격정보]
-![tb_price](C:\Users\dpwls\git\repository2\ojt-dpwls924\file/productForm3.gif)
+![tb_price](https://github.com/YeJinAhn/crewmate-internship/blob/main/file/productForm3.gif)
 - 정상가와 판매가 입력 시 두 금액의 차를 계산해서 할인율을 알려준다.
 
 ### 1-4)[상품옵션정보]
-![tb_option](C:\Users\dpwls\git\repository2\ojt-dpwls924\file/productForm4.gif)
+![tb_option](https://github.com/YeJinAhn/crewmate-internship/blob/main/file/productForm4.gif)
 - 예시를 들자면,
 -같은 신발이지만 사이즈별, 색상별이 있고     사이즈, 색상의 조합만큼 재고가 생성됩니다. 
 -재고별로 수량이 있습니다.
@@ -58,7 +58,7 @@
 위와 같이 insert된다.
 
 ### 1-5)[관련상품정보]
-![tb_connection_product](C:\Users\dpwls\git\repository2\ojt-dpwls924\file/productForm5.gif)
+![tb_connection_product](https://github.com/YeJinAhn/crewmate-internship/blob/main/file/productForm5.gif)
 - 관련상품(있음)을 체크하면 관련상품목록조회 팝업창을 띄울수 있는 관련상품추가 버튼이 생성된다.
 - <검색 시> -분류선택,업체,상품명,상품코드,브랜드,판매상태,상품가격,전시여부,승인기간, 업체중지상품제외 검색조건에 따라 관련된 목록이 출력된다.
 - 여러 개 체크가 가능하다.
