@@ -14,7 +14,7 @@
  </tr>
  <tr>
    <td><b>Server</b></td>
-   <td>Apache Tomcat 8.5</td> 
+   <td>spring boot</td> 
  </tr>
  <tr>
    <td><b>language</b></td>
