@@ -6,7 +6,7 @@
 <table>
  <tr>
    <td><b>Development tools</b></td>
-   <td>STS</td>
+   <td>eclips</td>
  </tr>
  <tr>
    <td><b>DBMS</b></td>
